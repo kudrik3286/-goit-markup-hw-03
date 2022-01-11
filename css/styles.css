@@ -12,9 +12,9 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
 }
 
 .container {
@@ -23,7 +23,26 @@ body {
   width: 1200px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Шапка */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -79,6 +98,11 @@ body {
   text-align: center;
 }
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 700px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -111,6 +135,9 @@ body {
   color: var(--title-text-color);
 }
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.1;
 
@@ -126,6 +153,8 @@ body {
   letter-spacing: 0.03em;
 }
 .second-title {
+  margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -136,7 +165,13 @@ body {
 .team {
   background-color: var(--secondary-bg-color);
 }
+.team-card {
+  padding-bottom: 30px;
+}
 .team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -157,6 +192,10 @@ body {
 }
 /* Портфолио */
 
+.filter-list {
+  margin-bottom: 50px;
+}
+
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -176,12 +215,22 @@ body {
   color: var(--primary-whit-color);
   background-color: var(--accen-color);
 }
+/* Проэкты */
+.project-card {
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+}
+
 .project-link {
   text-decoration: none;
 }
 .project-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
+  max-width: 370px;
 
   letter-spacing: 0.06em;
 
@@ -190,6 +239,7 @@ body {
 .project-text {
   font-size: 16px;
   line-height: 1.9;
+  max-width: 370px;
 
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -202,6 +252,9 @@ body {
 /* Подвал */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #2f303a;
 }
 .address-link {
