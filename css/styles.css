@@ -52,6 +52,9 @@ p {
 .img-card {
   display: block;
 }
+img {
+  display: block;
+}
 
 /* Шапка */
 
@@ -129,6 +132,9 @@ p {
 /* Основной контент */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: #2f303a;
   text-align: center;
 }
@@ -144,7 +150,6 @@ p {
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--primary-whit-color);
 }
 .hero-button {
@@ -195,6 +200,9 @@ p {
   line-height: 1.7;
 
   letter-spacing: 0.03em;
+}
+.second-section {
+  padding-bottom: 94px;
 }
 .second {
   display: flex;
@@ -304,9 +312,7 @@ p {
 }
 .project-card {
   margin: 0;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 
@@ -315,7 +321,6 @@ p {
   display: inline-block;
 }
 .project-title {
-  margin-top: 20px;
   margin-bottom: 4px;
 
   font-size: 18px;
